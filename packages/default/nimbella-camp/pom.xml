@@ -7,6 +7,10 @@
     <version>1.0-SNAPSHOT</version>
     <name>nimbella-camp</name>
     <url>http://maven.apache.org</url>
+    <properties>
+        <maven.compiler.source>15</maven.compiler.source>
+        <maven.compiler.target>15</maven.compiler.target>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>com.google.code.gson</groupId>
